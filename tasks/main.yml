@@ -13,7 +13,7 @@
     value: 'C:\Program Files\Amazon Corretto\jdk1.{{ java_major_version }}_{{ java_minor_version }}'
     level: machine
 
-- name: Add Java to path
+- name: Add Amazon Corretto Java to path
   win_path:
   elements:
    - 'C:\Program Files\Amazon Corretto\jdk1.{{ java_major_version }}_{{ java_minor_version }}\bin'
