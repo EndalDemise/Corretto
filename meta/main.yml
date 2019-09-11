@@ -1,0 +1,18 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: EndalDemise
+  description: Install and configure Amazon Corretto 8 on Windows
+  company: "EndalDemise"
+  min_ansible_version: 2.0
+  platforms:
+  - name: Windows
+    versions:
+    - all
+    - 2012R2
+    - 2016
+  galaxy_tags:
+    - Java
+    - JDK
+    - Windows
